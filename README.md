@@ -1,1 +1,2 @@
 # odin-recipes
+This project is to create a website of recipes. This will allow me to demonstrate skils with HTML. These skills include creating the boilerplate for HTML, adding titles, headings, bodies, lists, images, and links.
