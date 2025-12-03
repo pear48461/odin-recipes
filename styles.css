@@ -1,0 +1,38 @@
+/* styles.css */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(96, 166, 176)
+}
+
+img {
+    margin-left: 20px;
+}
+
+h1, h2 {
+    color:rgb(62, 51, 76)
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    border: 5px solid black;
+}
+
+.description {
+    text-align: center;
+}
+
+p {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.ingredients {
+    margin: 10px;
+    font-size: 16px;
+    color: rgb(75, 57, 75);
+}
