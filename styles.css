@@ -4,12 +4,16 @@
     background-color: rgb(96, 166, 176)
 }
 
-img {
-    margin-left: 20px;
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 h1, h2 {
-    color:rgb(62, 51, 76)
+    color:rgb(62, 51, 76);
 }
 
 
@@ -17,22 +21,43 @@ h1 {
     text-align: center;
     margin-top: 100px;
     border: 5px solid black;
+    width: 400px;
 }
 
 .description {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 p {
     border: 2px solid black;
     padding: 10px;
+    width: 700px;
     text-align: center;
-    width: 800px;
-    margin: auto;
+
 }
 
-.ingredients {
-    margin: 10px;
-    font-size: 16px;
-    color: rgb(75, 57, 75);
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    flex: 1 1 0%;
 }
+
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+.ingredients-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+
